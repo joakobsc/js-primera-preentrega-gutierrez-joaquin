@@ -5,9 +5,6 @@ alert("Estamos buscando desarrolladores que nos ayuden en nuestro trabajo")
 function númeroDeT(){
     telefono = parseInt(prompt("ingresá tu número de telefono"))
     telefono = confirm ( "El número "+telefono+ " " + "es correcto?")
-    if(telefono == false){
-        telefono = parseInt(prompt("ingresá el número de telefono nuevamente"))
-    }
 }
 
 let buscarTrabajo = confirm("¿Deseas trabajar con nosotros?")
